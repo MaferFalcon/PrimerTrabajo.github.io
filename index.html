@@ -1,0 +1,133 @@
+<!-- DOCTYPE le dice al navegador que este archico es tipo html -->
+<!DOCTYPE html>
+
+<html lang="es">
+    <!-- Info para el navegador y extras-->
+    <head>
+        <!-- Titulos -->
+        <title> Ejercicio 1 TECNOLOCHICAS </title>
+        <link rel="stylesheet" href="style.css"> <!-- Para vicular con style.css-->
+        
+        <!-- Link que me da la pag de google de tipos de textos-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+   
+    </head>
+
+<!-- Dentro de mi body (cuerpo) vamos a poner lo que el usuario ve -->
+    <body>
+
+    <div>
+    <h1> Hola Mundo!!</h1>
+    <h2> Hola Mundo!!!</h2>
+    <h3> Hola Mundo!!!!</h3>
+    <h4> Hola Mundo!!!!!</h4>
+    <h5> Hola Mundo!!!!!!</h5>
+
+    <p> Esta etiqueta me sirve para poner párrafos o textos largos, y todo esto es un elemento </p>
+    
+    </div>
+
+     <main> <!-- Para poner la información más relevante de la pagina web-->
+
+        <h1 class="titulo-web"> WEB HARRIE</h1>
+
+        <h2> Imágenes de Harry </h2>
+        <!-- Atributos son src (source, de donde viene) y alt-->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Harry_Styles_Wembley_June_2022_%28cropped%29.jpg/800px-Harry_Styles_Wembley_June_2022_%28cropped%29.jpg">
+        <br> <!-- enter a la imagen, para que este abajo y no al lado-->
+        <img class="grammy" src="imagenes/Harold.jpeg">
+    
+        <h3> Lista de Harry </h3>
+        <div> <!-- Elemento div (división de otros elementos)-->
+            
+            <p> Cosas que Harry <strong> ama </strong></p> <!-- "strong" Elemento anidado para escribir en negritas-->
+            <p> <em>Lista hecha por Mafer </em></p> <!-- "em" Elemento anidado para escribir en cursiva-->
+            
+            <!-- Lista no ordenada (ul, unordered list) -->
+                <ul> <!-- li*NUMERO se hace la lista de ese num de elementos en automático-->
+                    <li> Cantar </li> <!-- item de la lista -->
+                    <li> Bailar 👌👌</li> <!-- Tecla Windows + punto para emoji-->
+                    <li> Louis </li>
+                </ul>
+
+                <img src="imagenes/Louis.jpg" alt="Louis">
+
+            <p> Cosas que Harry odia</p>
+            <!-- Lista ordenada (ol, ordered list) -->
+                <ol>
+                    <li> No cantar sobre frutas</li>
+                    <li> Que le digan mujeriego</li>
+                    <li> Cancelar conciertos </li>
+                </ol>
+        
+        </div>
+
+        <!-- Enlaces internos-->
+        <a href="#parrafo-1">Párrafo 1</a> <!-- "a" elemento ancla, "href" nos deja poner referencia dentro de nuestro código-->
+        <a href="#parrafo-2">Párrafo 2</a>
+        <a href="#parrafo-3">Párrafo 3</a>
+
+        <h3 id="parrafo-1">Párrafo 1</h3>
+        <p> Harry incio en X Factor, y comenzo su carrera con One Direction</p>
+        <p> dowhevuewfbeowuireucbyrebiurebgciurbiubebeiubeciubeiucbeiucbewiucbowbcwuocbweidneoiubcoeubcobfioewfnoebfoiewbfoiewbfowiefboewfnebwoifbeowfboewbfeibfoew</p>
+
+        <h3 id="parrafo-2">Párrafo 2</h3>
+        <p> Harry actualmente es solista y esta en gira mundial</p>
+        <p> diwenfebicuebviuebuocbivubrbviruebvrbewoufbeufbeowufebodwiwnbfoiewbfobfojewbnfouebwfoeubwfouenhwfoiewbfoewhfoeinfebfoenfeoibfeiofnoienfoeifboei</p>
+
+        <h3 id="parrafo-3">Párrafo 3</h3>
+        <p> Harry tiene una hermana llamada Gemma y su mama que se llama Anne</p>
+        <p> udscudbcudbcdhsbciubfyevfidbsciudsvgfysbeiwhbfuoewbfuiewgiucbwufjebiufebgiufbewufibeuifbefuiewbfuiewbfuiebfuewgfuydhvsufyewvbuybdsfhycvdsufbdsuifbdsiyfyedbfubeifgeibdnifubgiuew</p>
+
+        <!-- Enlaces externos-->
+        <p> En este <a href="https://es.wikipedia.org/wiki/Harry_Styles"> link </a> </p>
+        <a href="https://www.youtube.com/channel/UCZFWPqqPkFlNwIxcpsLOwew"> <img src="data:image/jpeg;base64,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" alt="Foto de harry con link"></a>
+        
+        <!-- Formularios con radio -->
+        <p> Harry es mayor o menor de edad </p>
+            <!-- Opción mayor de edad-->
+             <label for="mayor de edad">
+                <input id="mayor de edad" type="radio" value="mayor" name="edad" > Mayor de edad
+            </label>
+
+                <!-- Opción menor de edad-->
+             <label for="menor de edad">
+                <input id="menor de edad" type="radio" value="menor" name="edad" > Menor de edad
+            </label>
+                <!-- Name tiene que tenr lo mismo para relacionar las opciones-->
+
+        <!-- Formularios con check box -->
+        <p> ¿Como es Harry para ti? </p>
+
+             <!-- Amable -->
+             <label for="Amable">
+                <input id="Amable" type="checkbox" value="Amable" name="personalidad" > Amable
+            </label>
+
+                <!-- Opción Talentoso-->
+             <label for="Talentoso">
+                <input id="Talentoso" type="checkbox" value="Talentoso" name="personalidad" > Talentoso
+            </label>
+
+                 <!-- Opción Gracioso-->
+                 <label for="Gracioso">
+                    <input id="Gracioso" type="checkbox" value="Gracioso" name="personalidad" > Gracioso
+                </label>
+
+                     <!-- Respetuoso-->
+             <label for="Respetuoso">
+                <input id="Respetuoso" type="checkbox" value="Respetuoso" name="personalidad" > Respetuoso
+            </label>
+
+    </main>
+
+        <footer>
+            <p> Página creada por Mafer Falcón en 
+                <a href="https://tecnolochicas.mx/"> Tecnolochicas Pro </a>
+            </p>
+        </footer>
+
+    </body>
+</html>

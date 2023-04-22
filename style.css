@@ -1,0 +1,33 @@
+
+body{
+    /* RGB red green blue*/
+    background-color: rgb(124, 198, 221);
+    color: rgb(112, 103, 160);
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+p{
+    color: black;
+}
+
+h1{
+    color: crimson;
+}
+
+/* Para agregar clae, ponemos (.) antes del nombre*/
+
+.titulo-web{
+    color: red;
+    font-size: xx-large;
+}
+
+/* width = ancho y height= altura */
+img{
+    width: 200px;
+    height: auto;
+}
+
+.grammy{
+    width: 300px;
+}
+
